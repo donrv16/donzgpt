@@ -81,7 +81,7 @@ const handleSubmit = async (e) => {
     chatContainer.scrollTop = chatContainer.scrollHeight;
 
     // specific message div 
-    const messageDiv = "make a lesson plan for 2 hours for the topic " + document.getElementById(uniqueId)
+    const messageDiv = document.getElementById(uniqueId)
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
