@@ -81,7 +81,7 @@ const handleSubmit = async (e) => {
     chatContainer.scrollTop = chatContainer.scrollHeight;
 
     // specific message div 
-    const messageDiv = document.getElementById(uniqueId)
+    const messageDiv = "make a lesson plan for 2 hours for the topic " + document.getElementById(uniqueId) + ". Give 1 objective for knowledge, 1 objective for skills and 1 objective for attitudes. Also include the following parts, review of previous lesson, establishing a purpose for the lesson, presenting examples, discussion, developing new concepts, practical application of concepts and skills, generalization and evaluating learning."
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
